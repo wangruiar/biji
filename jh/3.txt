@@ -1,0 +1,45 @@
+通过Jquery对象 修改元素的属性 *
+JS:
+	取出属性:	dom对象.属性名;
+	设置属性:	dom对象.属性名 = 值;
+
+Jquery 中 将属性的获取与设置子, 封装为了一个函数, attr
+
+	格式1. 用于一次操作单个属性.
+		设置属性:	$obj.attr("属性名","属性值");
+		取出属性:	var 属性值 = $obj.attr("属性名");
+
+	格式2.	用于一次设置多个属性值
+		$obj.attr(对象);
+		//	对象中包含的属性名 和 属性值, 都会设置到元素上.
+		//例如:
+			var x1 = new Object();
+			x1.src = "images/1.jpg";
+			x1.style = "width:200px";
+
+			$img.attr(x1);
+		
+		也可以编写为:
+			$img.attr({"src":"images/1.jpg","style":"width:200px"});
+JS:
+	取出属性:	dom对象.属性名;
+	设置属性:	dom对象.属性名 = 值;
+
+Jquery 中 将属性的获取与设置子, 封装为了一个函数, attr
+
+	格式1. 用于一次操作单个属性.
+		设置属性:	$obj.attr("属性名","属性值");
+		取出属性:	var 属性值 = $obj.attr("属性名");
+
+	格式2.	用于一次设置多个属性值
+		$obj.attr(对象);
+		//	对象中包含的属性名 和 属性值, 都会设置到元素上.
+		//例如:
+			var x1 = new Object();
+			x1.src = "images/1.jpg";
+			x1.style = "width:200px";
+
+			$img.attr(x1);
+		
+		也可以编写为:
+			$img.attr({"src":"images/1.jpg","style":"width:200px"});

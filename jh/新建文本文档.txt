@@ -1,0 +1,19 @@
+基本筛选选择器
+$("p:first").css("font-size","10px";);
+排除筛选选择器
+$("P:contains('所要筛选的内容')").css("color","#333");可见筛选选择器
+$("p:not(p:contains('所要排除筛选的内容'))")；排除筛选的内容
+
+
+
+
+2
+显示
+<button onclick="$('img').show;">
+1、Juqery中.val()与.value之间的区别
+.val()方法，一个是带参：给输入框赋值，一个是不参数的方法：获取输入框的值
+.value：获取Dom标签元素的value值，属于原生态JavaScript的写法 
+var num = parseInt(val);    解析并返回一个浮点数
+setinterval(function(){
+    $("button:eq(index)")trigger() 方法触发被选元素的指定事件类型。  eq(index) 将方法匹配给指定index上的一个
+},time);       每隔给定时间执行一次函数
