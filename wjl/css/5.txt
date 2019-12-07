@@ -1,0 +1,36 @@
+## Color 属性
+
+| 属性                                                         | 描述                                           | CSS  |
+| :----------------------------------------------------------- | :--------------------------------------------- | :--- |
+| color-profile                                                | 允许使用源的颜色配置文件的默认以外的规范。     | 3    |
+| [opacity](https://www.w3school.com.cn/cssref/pr_opacity.asp) | 规定元素的不透明级别。                         | 3    |
+| rendering-intent                                             | 允许使用颜色配置文件渲染意图的默认以外的规范。 | 3    |
+
+## Content for Paged Media 属性
+
+| 属性                | 描述                                                   | CSS  |
+| :------------------ | :----------------------------------------------------- | :--- |
+| bookmark-label      | 规定书签的标记。                                       | 3    |
+| bookmark-level      | 规定书签的级别。                                       | 3    |
+| bookmark-target     | 规定书签链接的目标。                                   | 3    |
+| float-offset        | 将元素放在 float 属性通常放置的位置的相反方向。        | 3    |
+| hyphenate-after     | 规定连字单词中连字符之后的最小字符数。                 | 3    |
+| hyphenate-before    | 规定连字单词中连字符之前的最小字符数。                 | 3    |
+| hyphenate-character | 规定当发生断字时显示的字符串。                         | 3    |
+| hyphenate-lines     | 指示元素中连续断字连线的最大数。                       | 3    |
+| hyphenate-resource  | 规定帮助浏览器确定断字点的外部资源（逗号分隔的列表）。 | 3    |
+| hyphens             | 设置如何对单词进行拆分，以改善段落的布局。             | 3    |
+| image-resolution    | 规定图像的正确分辨率。                                 | 3    |
+| marks               | 向文档添加裁切标记或十字标记。                         | 3    |
+| string-set          |                                                        | 3    |
+
+## CSS 尺寸属性（Dimension）
+
+| 属性                                                         | 描述                 | CSS   |
+| :----------------------------------------------------------- | :------------------- | :---- |
+| [height](https://www.w3school.com.cn/cssref/pr_dim_height.asp) | 设置元素高度。       | 1     |
+| [max-height](https://www.w3school.com.cn/cssref/pr_dim_max-height.asp) | 设置元素的最大高度。 | 2     |
+| [max-width](https://www.w3school.com.cn/cssref/pr_dim_max-width.asp) | 设置元素的最大宽度。 | 2     |
+| [min-height](https://www.w3school.com.cn/cssref/pr_dim_min-height.asp) | 设置元素的最小高度。 | 2     |
+| [min-width](https://www.w3school.com.cn/cssref/pr_dim_min-width.asp) | 设置元素的最小宽度。 | 2     |
+| [width](https://www.w3school.com.cn/cssref/pr_dim_width.asp) | 设置元素的宽度。     | **1** |
